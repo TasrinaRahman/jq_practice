@@ -1,0 +1,44 @@
+body{
+    background-color: darkgoldenrod;
+    margin: 0px 50px;
+    text-align: center;
+    color: white;
+}
+.head button{
+    background-color: white;
+    padding: 10px 20px;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+.js_select button{
+    background-color: white;
+    padding: 10px 20px;
+    color: red;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#panel, #flip{
+    width: 500px;
+    margin-left: 365px;
+    padding: 5px;
+    background-color: darkred;
+    text-align: center;
+    border: 2px solid white;
+}
+#panel{
+    padding: 50px 5px;
+    display: none;
+}
+.list li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+.odd{ padding: 10px; background-color: black;}
+.even{ padding: 10px; background-color: blue;}
+.first{ padding: 10px; background-color: red;}
+.last{ padding: 10px; background-color: gray;}
+.nth{ padding: 10px; background-color: darkblue;}
